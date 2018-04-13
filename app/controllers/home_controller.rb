@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def index
   end
   
-  
+  #Where to define
   def callback
     client = Signet::OAuth2::Client.new(client_options)
     client.code = params[:code]
