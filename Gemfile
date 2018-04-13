@@ -59,7 +59,7 @@ gem 'stripe'
 
 # Google Calendar gem
 gem 'google-api-client', require: 'google/apis/calendar_v3'
-
+gem 'active_scaffold'
 # Bootstrap v3
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails'

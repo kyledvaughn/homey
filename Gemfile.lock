@@ -24,6 +24,9 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_scaffold (3.5.0)
+      ice_nine (~> 0.11)
+      rails (>= 4.0.5)
     activejob (5.1.6)
       activesupport (= 5.1.6)
       globalid (>= 0.3.6)
@@ -101,6 +104,7 @@ GEM
     httpclient (2.8.3)
     i18n (1.0.0)
       concurrent-ruby (~> 1.0)
+    ice_nine (0.11.2)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -241,6 +245,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_scaffold
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
   capybara (~> 2.13)
