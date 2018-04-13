@@ -56,3 +56,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.4', '>= 4.4.3'
 
 gem 'stripe'
+
+# Google Calendar gem
+gem 'google-api-client', require: 'google/apis/calendar_v3'
+
+# Bootstrap v3
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'jquery-rails'
