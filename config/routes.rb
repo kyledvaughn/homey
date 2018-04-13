@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 #   Google Calendar
     get '/redirect', to: 'home#redirect', as: 'redirect'
     get '/callback', to: 'home#callback', as: 'callback'   
-endr
+end
 #   Chat room
     resources :chat_rooms, only: [:new, :create, :show, :index]  
     mount ActionCable.server => '/cable' 
